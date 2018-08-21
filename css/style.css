@@ -1,0 +1,745 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    letter-spacing: 0.03em;
+    color: #320100;
+    background-color: #fcfffe;
+    line-height: 2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    width: 900px;
+    margin: auto;
+}
+
+.header-logo {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.header-logo img {
+    background-color: #ffffff;
+}
+
+.header-button {
+    text-align: center;
+    width: 50%;
+    height: 65px;
+    background-color: #fb7c00;
+    padding-top: 25px;
+    float: left;
+}
+
+.header-button p {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #fcfffe;
+}
+
+.clear {
+    clear: both;
+}
+
+.header-menu {
+    width: 900px;
+    height: auto;
+    background-color: #ffffff;
+    font-size: 2.1rem;
+    margin: 30px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp-hedder-menu {
+    display: none;
+}
+
+.toggle {
+    display: none;
+}
+
+nav.header-menu-sp {
+    display: none;
+}
+
+.top-image {
+    width: 900px;
+    margin: auto;
+}
+
+.top-image img {
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    width: 900px;
+    margin: auto;
+}
+
+.content-top-note {
+    width: 900px;
+    margin: 30px 0;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.top-note-text {
+    width: 900px;
+    padding: 30px 0;
+    background-color: #ffffff;
+}
+
+.top-note-list {
+    width: 900px;
+    background-color: #fcfffe;
+}
+
+.top-note-listbox {
+    width: 33%;
+    text-align: center;
+    float: left;
+    background-color: #ffffff;
+}
+
+.top-note-item {
+    width: 100%;
+}
+
+.top-note-item img {
+    width: 100%;
+}
+
+.top-note-images {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top-note-images img {
+    width: 100%;
+}
+
+.content-menu-price {
+    width: 900px;
+}
+
+.title {
+    width: 900px;
+    height: 90px;
+    background-color: #fcfffe;
+    margin: 50px 0 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 0.4em 0.5em;
+    /*文字の上下 左右の余白*/
+    border-left: solid 10px #fb7c00;
+    /*左線*/
+    border-bottom: solid 3px #d7d7d7;
+    padding: 30px 10px;
+}
+
+.menu-price-title-box {
+    width: 900px;
+    height: 90px;
+    background-color: #fb7c00;
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 2.1rem;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.title-name {
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+
+.title-description {
+    clear: both;
+    text-align: right;
+    padding: 35px 10px 0 0;
+}
+
+.menu-price-note-list {
+    width: 900px;
+    padding-bottom: 30px;
+}
+
+.meal {
+    width: 900px;
+    margin: auto;
+}
+
+.meal-images-container {
+    width: 900px;
+}
+
+.meal-images-box {
+    width: 50%;
+    text-align: center;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.meal-images-box img {
+    width: 100%;
+}
+
+.peaty {
+    width: 900px;
+}
+
+.meal-images {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.meal-images img {
+    width: 600px;
+    margin: 30px 0;
+}
+
+.osechi {
+    clear: both;
+    width: 900px;
+}
+
+.content-howto-order {
+    width: 900px;
+}
+
+.howto-order-note {
+    width: 900px;
+    padding: 30px 0;
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+
+.howto-order-note-bottom {
+    padding-bottom: 30px;
+}
+
+.contact-container {
+    clear: both;
+    width: 897px;
+    margin: auto;
+    border: 3px solid #fb7c00;
+}
+
+.contact-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-title-text1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.contact-title-text2 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.contact-item {
+    width: 32.5%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.icon {
+    text-align: center;
+    padding-right: 35px;
+}
+
+.tel-number {
+    padding-left: 15px;
+}
+
+.fax-number {
+    padding-left: 30px;
+}
+
+.contact-item-mail {
+    width: 35%;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+
+.contact-footer {
+    width: 100%;
+    border-top: 2px solid #fb7c00;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.content-delivery-area {
+    width: 900px;
+}
+
+.delivery-note {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.delivery-image {
+    width: 100%;
+    text-align: center;
+}
+
+.content-customer-voice {
+    width: 900px;
+}
+
+.voice-note {
+    width: 100%;
+}
+
+.voice-text {
+    padding: 30px 0;
+}
+
+.customer {
+    text-align: right;
+    border-bottom: 2px dotted #fb7c00;
+    padding-bottom: 30px;
+}
+
+footer {
+    width: 900px;
+    margin: auto;
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*ーーーnextーーー*/
+
+.content-about {
+    width: 900px;
+    margin-top: 30px;
+}
+
+.sub-title {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    font-size: 25px;
+    color: #fb7c00;
+}
+
+.about-note {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.about-note p {}
+
+.about-image {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.about-image img {
+    width: 300px;
+}
+
+.content-rental-kitchen {
+    width: 900px;
+}
+
+.rental-kitchen-note {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.rental-kitchen-note-list ul {
+    padding: 30px 0;
+}
+
+.rental-kitchen-image {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.rental-kitchen-image img {
+    width: 400px;
+}
+
+.sp-hedder-menu {
+    display: none;
+}
+
+.toggle {
+    display: none;
+}
+
+nav.header-menu-sp {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .top-note-listbox .meal-images-box .contact-item .contact-item-mail .title-name .about-note .about-image .rental-kitchen-note .rental-kitchen-image {
+        float: none;
+        margin: 0;
+        width: auto;
+    }
+
+    body {
+        width: 96%;
+        margin: 0 2%;
+        height: auto;
+    }
+    header {
+        width: 100%;
+    }
+    .header-button {
+        display: none;
+    }
+    .header-menu {
+        display: none;
+    }
+    .sp-hedder-menu {
+        display: block;
+        width: 100%;
+    }
+    nav.header-menu-sp {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        background: #fff;
+        color: #000;
+        text-align: center;
+        transform: translateY(-100%);
+        transition: all 0.6s;
+        width: 100%;
+        display: block;
+    }
+
+    nav.header-menu-sp ul {
+        background: #fff;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav.header-menu-sp ul li {
+        font-size: 1.1em;
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        border-bottom: 1px dotted #333;
+        color: #fb7c00;
+    }
+
+    nav.header-menu-sp ul li:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    nav.header-menu-sp ul li a {
+        display: block;
+        color: #320100;
+        padding: 1em 0;
+    }
+
+    nav.header-menu-sp.active {
+        transform: translateY(0%);
+    }
+
+
+    .toggle {
+        display: block;
+        position: fixed;
+        right: 2%;
+        top: 12px;
+        width: 60px;
+        height: 70px;
+        cursor: pointer;
+        z-index: 3;
+        background: #fff;
+        text-align: center;
+    }
+
+    .toggle span {
+        display: block;
+        position: absolute;
+        /* .navToggleに対して */
+        width: 50px;
+        border-bottom: solid 3px #fb7c00;
+        -webkit-transition: .35s ease-in-out;
+        -moz-transition: .35s ease-in-out;
+        transition: .35s ease-in-out;
+        left: 6px;
+    }
+
+    .toggle span:nth-child(1) {
+        top: 12px;
+    }
+
+    .toggle span:nth-child(2) {
+        top: 24px;
+    }
+
+    .toggle span:nth-child(3) {
+        top: 36px;
+    }
+
+    .toggle span:nth-child(4) {
+        border: none;
+        color: #fb7c00;
+        font-size: 16px;
+        font-weight: bold;
+        top: 42px;
+    }
+
+    .toggle.active span:nth-child(1) {
+        top: 18px;
+        left: 6px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .toggle.active span:nth-child(2),
+    .toggle.active span:nth-child(3) {
+        top: 18px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+
+
+    .top-image {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .content-top-note {
+        width: 100%;
+    }
+    .top-note-text {
+        width: 100%;
+    }
+    .top-note-list {
+        width: 100%;
+    }
+    .top-note-listbox {
+        width: 100%;
+    }
+
+    .top-note-item img {
+        width: 70%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    .top-note-images img {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .content-menu-price {
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+    }
+    .menu-price-title-box {
+        width: 100%;
+        height: auto;
+    }
+    .menu-price-note-list {
+        width: 100%;
+    }
+    .meal {
+        width: 100%;
+    }
+    .meal-images-container {
+        width: 100%;
+    }
+    .meal-images-box {
+        width: 100%;
+    }
+    .meal-images-box img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .meal-images img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .peaty {
+        width: 100%;
+    }
+    .meal-images {
+        width: 100%;
+    }
+    .meal-images img {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .osechi {
+        width: 100%;
+    }
+    .content-howto-order {
+        width: 100%;
+    }
+    .howto-order-note {
+        width: 100%;
+    }
+    .contact-container {
+        width: 97%;
+    }
+    .contact-item {
+        width: 100%;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .icon {
+        padding: 0 0;
+        text-align: center;
+    }
+    .tel-number {
+        padding: 0 0;
+        text-align: center;
+    }
+    .fax-number {
+        padding: 0 0;
+        text-align: center;
+    }
+    .mail-address {
+        padding: 0 0;
+        text-align: center;
+    }
+    .contact-item-mail {
+        width: 100%;
+        margin: auto;
+    }
+    .content-delivery-area {
+        width: 100%;
+    }
+    .delivery-note {
+        width: 100%;
+    }
+    .delivery-image {
+        width: 100%;
+    }
+    .delivery-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .content-customer-voice {
+        width: 100%;
+    }
+    .voice-note {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+
+    }
+
+    /*ーーーnextーーー*/
+    .content-about {
+        width: 100%;
+    }
+    .sub-title {
+        width: 100%;
+    }
+    .about-note {
+        width: 100%;
+        padding-left: 1em;
+    }
+    .about-image {
+        width: 100%;
+        margin: auto;
+        padding: 30px 0;
+    }
+    .about-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-rental-kitchen {
+        width: 100%;
+    }
+    .sub-title {
+        padding-left: 1em;
+    }
+    .rental-kitchen-note {
+        width: 100%;
+        padding-left: 1em;
+    }
+    .rental-kitchen-image {
+        width: 100%;
+        margin: auto;
+        padding: 30px 0;
+    }
+    .rental-kitchen-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .title-name {
+        text-align: left;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 0%;
+        width: 96%;
+    }
+    .title-description {
+        clear: both;
+        text-align: left;
+        padding: 0%;
+        margin: 0 2%;
+        width: 96%;
+    }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no">
+  <title>サンプル</title>
+  <meta name="Description" content="グループ菜のおせち申し込みフォーム" />
+  <meta name="Keywords" content="おせち" />
+  <!--meta http-equiv="Content-Style-Type" content="text/css" /-->
+  <style type="text/css">
+    #osechi-image {
+      width: 900px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    #osechi-image img {
+      display: block;
+      margin: auto;
+    }
+
+    #formWrap {
+      width: 900px;
+      margin: auto;
+      color: #555;
+      line-height: 100%;
+      font-size: 90%;
+    }
+
+    h3 {
+      font-size: 130%;
+      color: red;
+    }
+
+    table.formTable {
+      width: 100%;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    table.formTable td,
+    table.formTable th {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    table.formTable th {
+      width: 30%;
+      font-weight: normal;
+      background: #efefef;
+      text-align: left;
+    }
+
+    table.title {
+      width: 100%;
+      font-weight: normal;
+    }
+
+    .button {
+      text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+      body {
+        width: 96%;
+        margin: 0 2%;
+      }
+      #osechi-image {
+        max-width: 100%;
+        margin: auto;
+        padding: 20px 0;
+      }
+      #osechi-image img {
+        max-width: 100%;
+      }
+      #formWrap {
+        width: 100%;
+        margin: auto;
+      }
+      table.formTable th,
+      table.formTable td {
+        width: 100%;
+        width: auto;
+        display: block;
+      }
+      table.formTable th {
+        width: 100%;
+        margin-top: 5px;
+        border-bottom: 0;
+      }
+      .button {
+        text-align: center;
+      }
+      input[type="text"],
+      textarea {
+        width: 80%;
+        padding: 5px;
+        font-size: 110%;
+        display: inline-block;
+      }
+      input[type="submit"],
+      input[type="reset"],
+      input[type="button"] {
+        display: inline-block;
+
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="osechi-image"><img src="./images/2016osechi.png" alt='おせちの写真'></div>
+  <div id="formWrap">
+    <h3>グループ菜 2018年おせち ご注文受け付け</h3>
+    <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
+    <form action="mail.php" method="post">
+      <table class="formTable">
+        <tr>
+          <th>お名前</th>
+          <td><input size="20" type="text" name="お名前" /> ※必須</td>
+        </tr>
+        <tr>
+          <th>郵便番号</th>
+          <td><input size="30" type="text" name="郵便番号" />※必須</td>
+        </tr>
+        <tr>
+          <th>ご住所</th>
+          <td><input size="50" type="text" name="ご住所" />※必須</td>
+        </tr>
+        <tr>
+          <th>電話番号（半角）</th>
+          <td><input size="30" type="text" name="お電話番号" />※必須</td>
+        </tr>
+        <tr>
+          <th>Mail（半角）</th>
+          <td><input size="30" type="text" name="Email" /> ※必須</td>
+        </tr>
+        <tr>
+          <th>少量タイプ（4,000円）</th>
+          <td><select name="ご購入されるおせち">
+            <option value="">ご注文数を選択してください</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select></td>
+        </tr>
+        <tr>
+          <th>標準タイプ（7,500円）</th>
+          <td><select name="ご購入されるおせち">
+            <option value="">ご注文数を選択してください</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select></td>
+        </tr>
+        <tr>
+          <th>増量タイプ（10,500円）</th>
+          <td><select name="ご購入されるおせち">
+            <option value="">ご注文数を選択してください</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select></td>
+        </tr>
+        <tr>
+          <th>豪華増量タイプ（12,500円）</th>
+          <td><select name="ご購入されるおせち">
+            <option value="">ご注文数を選択してください</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select></td>
+        </tr>
+        <tr>
+          <th>お渡し方法</th>
+          <td><select name="お渡し方法">
+            <option value="">選択してください</option>
+            <option value="12月30日 夕方配送(下北沢近辺在住の方のみ)">12月30日 夕方配送（下北沢近辺在住の方のみ）</option>
+            <option value="12月31日 18時までに着 クール宅配便配送（クール便の送料が別途必要です。）">12月31日 18時までに着 クール宅配便配送（クール便の送料が別途必要です。）</option>
+        </select>※必須</td>
+        </tr>
+        <tr>
+          <th>
+            <p>ご要望</p>
+            <p>配達先がご注文者様と異なる場合はこちらにご記入ください。</p><br/></th>
+          <td><textarea name="ご要望" cols="50" rows="8"></textarea></td>
+        </tr>
+      </table>
+      <p class="button">
+        <input type="submit" value="確認">　<input type="reset" value="リセット" />
+      </p>
+    </form>
+  </div>
+</body>
+
+</html>
